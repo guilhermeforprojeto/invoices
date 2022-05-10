@@ -68,11 +68,20 @@ function App() {
               <a href="#">Overview</a>
             </Item>
             <Item>
-              <a href="./My">My Ivoices</a>
+              <a href="#">My Ivoices</a>
             </Item>
           </Grid>
           <Grid item xs={9}>
-            <div style={{ height: 400, width: "100%" }}></div>
+            <div style={{ height: 400, width: "100%" }}>
+              <DataGrid
+                rows={rows}
+                columns={columns}
+                pageSize={5}
+                rowsPerPageOptions={[5]}
+                checkboxSelection
+                disableSelectionOnClick
+              />
+            </div>
           </Grid>
         </Grid>
       </Box>
