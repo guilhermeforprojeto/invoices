@@ -31,8 +31,7 @@ function Sidebar(props) {
   const navigate = useNavigate()
 
   const handleListItem = (text) => {
-    let removeEspace = text.replace(/\s/g, '')
-    navigate(`/${removeEspace}`)
+    navigate(`/${text}`)
 
   };
 
@@ -99,6 +98,7 @@ function Sidebar(props) {
             keepMounted: true, // Better open performance on mobile.
           }}
           sx={{
+            color: 'text.secondary',
             display: { xs: 'block', sm: 'none' },
             '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
           }}
@@ -109,7 +109,7 @@ function Sidebar(props) {
           variant="permanent"
           sx={{
             display: { xs: 'none', sm: 'block' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+            '& .MuiDrawer-paper': { backgroundColor: 'primary.dark', boxSizing: 'border-box', width: drawerWidth },
           }}
           open
         >
