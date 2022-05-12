@@ -10,7 +10,8 @@ export default function MyRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Overview />} />
-        <Route path="/MyIvoices" element={<MyIvoices />} />
+        {/* <Route path="/MyIvoices" element={<MyIvoices />} /> */}
+        <Route path="/My%20Ivoices" element={<MyIvoices />} />
       </Routes>
     </BrowserRouter>
 

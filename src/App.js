@@ -26,7 +26,7 @@ function App() {
                 <TabPanel />
                 <Routes>
                   <Route path="/Overview" element={<Overview />} />
-                  <Route path="/MyIvoices" element={<MyIvoices />} />
+                  <Route path="/My%20Ivoices" element={<MyIvoices />} />
                 </Routes>
               </Grid>
             </Grid>
