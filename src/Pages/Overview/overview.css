@@ -4,7 +4,6 @@
   border-color: #1465bb5e;
   border-radius: 5px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 100%;
@@ -20,13 +19,17 @@
   flex-direction: row;
 }
 
+.ct_title {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+
+}
+
 .cts div {
   justify-content: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
   background-color: #1465bb;
-  width: 120px;
+  width: 160px;
   height: 120px;
   margin: 5px;
   border-radius: 8px;
@@ -35,7 +38,7 @@
 }
 
 .cts span {
-
+  margin: 0px 0px 0px 3px;
   text-align: center;
 
 }
