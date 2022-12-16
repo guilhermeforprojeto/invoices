@@ -1,4 +1,4 @@
-import overview from './overview.css'
+import './overview.css'
 import PriceCheckIcon from '@mui/icons-material/PriceCheck';
 
 import React from 'react'
