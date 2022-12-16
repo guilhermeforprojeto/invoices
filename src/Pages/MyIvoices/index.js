@@ -41,7 +41,7 @@ function MyIvoices() {
   return (
     <>
       <div style={{ marginBottom: "2rem", width: 40 }}>
-        <Select></Select>
+        <Select />
       </div>
       <div style={{ height: 400, width: '100%' }}>
 
